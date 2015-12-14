@@ -3,7 +3,7 @@
  */
 public class Persoon {
     private String naam;
-    private String achternaam
+    private String achternaam;
 
     public Persoon(String naam) {
         this.naam = naam;
@@ -22,6 +22,6 @@ public class Persoon {
     }
 
     public void setAchternaam(String achternaam) {
-        this.achternaam = achternaam
+        this.achternaam = achternaam;
     }
 }

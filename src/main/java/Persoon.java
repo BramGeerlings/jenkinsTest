@@ -9,6 +9,11 @@ public class Persoon {
         this.naam = naam;
     }
 
+    public Persoon(String achternaam, String naam) {
+        this.achternaam = achternaam;
+        this.naam = naam;
+    }
+
     public String getNaam() {
         return naam;
     }

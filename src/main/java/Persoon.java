@@ -3,6 +3,7 @@
  */
 public class Persoon {
     private String Naam;
+    private String Achternaam;
 
     public Persoon(String naam) {
         Naam = naam;
@@ -14,5 +15,13 @@ public class Persoon {
 
     public void setNaam(String naam) {
         Naam = naam;
+    }
+
+    public String getAchternaam() {
+        return Achternaam;
+    }
+
+    public void setAchternaam(String achternaam) {
+        Achternaam = achternaam;
     }
 }

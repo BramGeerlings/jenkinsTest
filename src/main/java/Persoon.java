@@ -4,6 +4,7 @@
 public class Persoon {
     private String voornaam;
     private String achternaam;
+    private String woonplaats;
 
     public Persoon(){
 
@@ -32,5 +33,13 @@ public class Persoon {
 
     public void setAchternaam(String achternaam) {
         this.achternaam = achternaam;
+    }
+
+    public String getWoonplaats() {
+        return woonplaats;
+    }
+
+    public void setWoonplaats(String woonplaats) {
+        this.woonplaats = woonplaats;
     }
 }

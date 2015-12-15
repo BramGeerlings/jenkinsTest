@@ -5,6 +5,10 @@ public class Persoon {
     private String naam;
     private String achternaam;
 
+    public Persoon(){
+
+    }
+
     public Persoon(String naam) {
         this.naam = naam;
     }

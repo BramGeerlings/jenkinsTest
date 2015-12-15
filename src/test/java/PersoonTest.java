@@ -12,5 +12,14 @@ public class PersoonTest {
         assertEquals("Rosanne", persoon.getNaam());
         assertEquals("Joosten", persoon.getAchternaam());
     }
+    @Test
+    public void if_set_methods_work_appropriately(){
+        Persoon persoon = new Persoon();
+        persoon.setAchternaam("Geerlings");
+        persoon.setNaam("Bram");
+        assertEquals("Bram", persoon.getNaam());
+        assertEquals("Geerlings", persoon.getAchternaam());
+
+    }
 
 }

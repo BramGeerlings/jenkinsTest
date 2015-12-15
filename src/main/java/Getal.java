@@ -5,7 +5,7 @@ public class Getal {
 
     private int getal = 10;
 
-    public int getGetal() {
+    public int getGetal( {
         return getal;
     }
 

@@ -5,9 +5,14 @@ public class Persoon {
     private String voornaam;
     private String achternaam;
     private String woonplaats;
+    public String gedachte;
 
     public Persoon(){
 
+    }
+
+    @Override public String toString() {
+        return "Hallo, ik ben "+this.getNaam()+" "+this.getAchternaam()+ ", "+"ik moet dit onthouden: "+this.gedachte;
     }
 
     public Persoon(String naam) {
@@ -41,5 +46,10 @@ public class Persoon {
 
     public void setWoonplaats(String woonplaats) {
         this.woonplaats = woonplaats;
+    }
+
+    public String ditMoetJeOnthouden(String bericht){
+        this.gedachte = bericht;
+        return this.gedachte;
     }
 }

@@ -6,4 +6,8 @@ public class Hobby {
         SPORT, KUNSTUITING, DENKEN, SOCIAAL
     }
 
+    public Hobby(){
+
+    }
+
 }

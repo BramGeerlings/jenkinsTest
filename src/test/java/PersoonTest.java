@@ -8,7 +8,7 @@ import static org.junit.Assert.assertEquals;
 public class PersoonTest {
     @Test
     public void if_constructor_gets_the_right_name(){
-        Persoon persoon = new Persoon("Rosanne","Joosten");
+        Persoon persoon = new Persoon("Joosten", "Rosanne");
         assertEquals("Rosanne", persoon.getNaam());
         assertEquals("Joosten", persoon.getAchternaam());
     }

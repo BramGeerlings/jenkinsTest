@@ -2,7 +2,7 @@
  * Created by GeerlingsB and RosanneJ on 11-12-2015.
  */
 public class Persoon {
-    private String naam;
+    private String voornaam;
     private String achternaam;
 
     public Persoon(){
@@ -10,20 +10,20 @@ public class Persoon {
     }
 
     public Persoon(String naam) {
-        this.naam = naam;
+        this.voornaam = naam;
     }
 
     public Persoon(String achternaam, String naam) {
         this.achternaam = achternaam;
-        this.naam = naam;
+        this.voornaam = naam;
     }
 
     public String getNaam() {
-        return naam;
+        return voornaam;
     }
 
     public void setNaam(String naam) {
-        this.naam = naam;
+        this.voornaam = naam;
     }
 
     public String getAchternaam() {

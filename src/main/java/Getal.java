@@ -7,6 +7,7 @@ public class Getal {
     // Comment puur om dingen mee te testen.
     //En nog een!
     /////EN NOG EEN
+    // deel 3
     public int getGetal() {
         return getal;
     }

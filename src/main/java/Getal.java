@@ -4,6 +4,7 @@
 public class Getal {
 
     private int getal = 10;
+    // Comment puur om dingen mee te testen.
 
     public int getGetal() {
         return getal;

@@ -8,6 +8,7 @@ public class Getal {
     //En nog een!
     /////EN NOG EEN
     // deel 3
+    // test hook API
     public int getGetal() {
         return getal;
     }

@@ -8,7 +8,7 @@ public class Getal {
     public int getGetal() {
         return getal;
     }
-    // Check met token
+    // Another test bites the dust
 
     public void setGetal(int getal) {
         this.getal = getal;

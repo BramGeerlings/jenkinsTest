@@ -8,7 +8,7 @@ public class Getal {
     public int getGetal() {
         return getal;
     }
-    // Another test bites the dust
+    // Voor Rosanne
 
     public void setGetal(int getal) {
         this.getal = getal;

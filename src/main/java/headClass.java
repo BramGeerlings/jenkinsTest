@@ -3,12 +3,6 @@
  */
 public class headClass {
 
-
-
-    headClass(){
-
-    }
-
     public static void main (String[] args){
         String onthouden = "http://kwxbuild.rabobank.nl:8080/jenkins/adjuncts/fe99a441/org/kohsuke/stapler/jquery/jquery.full.js";
         Persoon Bram = new Persoon("Geerlings", "Bram");

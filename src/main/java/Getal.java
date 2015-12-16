@@ -4,7 +4,6 @@
 public class Getal {
 
     private int getal = 10;
-    //woop
 
     public int getGetal() {
         return getal;

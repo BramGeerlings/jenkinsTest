@@ -1,6 +1,4 @@
-/**
- * Created by GeerlingsB and RosanneJ on 11-12-2015.
- */
+
 public class Persoon {
     private String voornaam;
     private String achternaam;

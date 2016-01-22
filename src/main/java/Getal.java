@@ -3,7 +3,7 @@
  */
 public class Getal {
 
-    private int getal = 10;
+    private int getal = 1;
 
     public int getGetal() {
         return getal;

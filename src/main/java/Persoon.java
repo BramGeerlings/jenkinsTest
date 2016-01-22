@@ -10,7 +10,7 @@ public class Persoon {
     }
 
     @Override public String toString() {
-        return "Hallo, ik ben "+this.getNaam()+" "+this.getAchternaam()+ ", "+"ik moet dit onthouden: "+this.gedachte;
+        return "Hallo, ik ben "+this.getNaam()+" "+this.getAchternaam()+ ", "+", jij moet dit onthouden: "+this.gedachte;
     }
 
     public Persoon(String naam) {

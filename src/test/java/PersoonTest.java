@@ -17,6 +17,7 @@ public class PersoonTest {
         Persoon persoon = new Persoon();
         persoon.setAchternaam("Geerlings");
         persoon.setNaam("Bram");
+        persoon.setWoonplaats("Hilversum");
         assertEquals("Bram", persoon.getNaam());
         assertEquals("Geerlings", persoon.getAchternaam());
 

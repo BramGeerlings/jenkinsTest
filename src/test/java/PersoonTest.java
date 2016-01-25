@@ -20,6 +20,7 @@ public class PersoonTest {
         persoon.setWoonplaats("Hilversum");
         assertEquals("Bram", persoon.getNaam());
         assertEquals("Geerlings", persoon.getAchternaam());
+        ;;
 
     }
 
